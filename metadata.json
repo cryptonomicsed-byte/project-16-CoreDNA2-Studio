@@ -1,0 +1,7 @@
+{
+  "name": "CoreDNA2",
+  "description": "Enterprise AI Brand Intelligence & Marketing Automation Platform. Extracts brand essence to generate autonomous marketing assets.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

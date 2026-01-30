@@ -1,0 +1,32 @@
+{
+  "name": "coredna2-backend",
+  "version": "1.0.0",
+  "description": "CoreDNA-369 Backend API",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "dev": "node dist/src/index.js",
+    "build": "tsc",
+    "start": "node dist/src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^1.35.0",
+    "@supabase/supabase-js": "^2.38.4",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.6",
+    "@types/uuid": "^9.0.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
